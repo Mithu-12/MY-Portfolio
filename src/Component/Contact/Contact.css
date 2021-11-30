@@ -18,3 +18,9 @@
 .contact-width{
     margin-top: 50px !important;
 }
+
+@media screen and (max-width: 768px) {
+    .contact{
+        height:100%
+    }
+}

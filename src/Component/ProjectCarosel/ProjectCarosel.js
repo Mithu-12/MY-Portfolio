@@ -13,7 +13,7 @@ const ProjectCarosel = () => {
            <Row xs={1} md={3} className="g-4">
   
     <Col>
-      <Card>
+      <Card data-aos='fade-right'>
         <Card.Img variant="top" src={img1} />
         <Card.Body>
           <Card.Title className="text-center">TIZZY</Card.Title>
@@ -28,7 +28,7 @@ const ProjectCarosel = () => {
     </Col>
   
     <Col>
-      <Card>
+      <Card data-aos='fade-down'>
         <Card.Img variant="top" src={img2} />
         <Card.Body>
           <Card.Title className="text-center">AVENTURA</Card.Title>
@@ -43,7 +43,7 @@ const ProjectCarosel = () => {
     </Col>
   
     <Col>
-      <Card>
+      <Card data-aos='fade-left'>
         <Card.Img variant="top" src={img3} />
         <Card.Body>
           <Card.Title className="text-center">HitUP GYM CLUB</Card.Title>
