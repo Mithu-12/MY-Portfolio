@@ -20,6 +20,8 @@ const About = () => {
                 </Col>
                 <Col xs={12} md={6}>
                 <div data-aos='fade-left'>
+                    <h3>Hello, I'm <span className="text-warning">Mithu Vowmick</span></h3>
+                    <h5 className='text-danger'>Junior Web Developer</h5>
                 <h4 className=' mt-3'>I am front end developer. I also improve reactjs, javascript, nodejs, and mongodb. I am also MERN Stack developer.</h4>
                 <h4 className=' mt-3'>Front-end professional with a newly acquired understanding of the development life-cycle as part of designing & deploying scalable applications via React, HTML, JS & CSS. Seeking a full-time position as a Front-end Developer at a reputed organization.</h4>
                 </div>

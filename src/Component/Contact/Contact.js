@@ -21,9 +21,9 @@ const Contact = () => {
           e.target.reset()
     }
     return (
-        <div className="my-5  contact" style={{background: `url(${image}) center no-repeat`}}>
+        <div className="mt-5  contact" style={{background: `url(${image}) center no-repeat`}}>
            <div className="container">
-               <h2 data-aos='fade-down' className="text-center my-4">Contact with me</h2>
+               <h2 data-aos='fade-down' className="text-center mt-4">Contact with me</h2>
            <Row className="contact-width">
             <Col xs={12} md={6}>
               <div className="myInfo">
