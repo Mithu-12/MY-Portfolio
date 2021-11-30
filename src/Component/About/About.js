@@ -1,16 +1,23 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './About.css'
+import image from '../images/about.jpg';
 
 const About = () => {
     return (
-        <div>
+        <div className='my-5 container'>
+            <h2 className='text-center my-5'>About Me</h2>
             <Row>
                 <Col xs={12} md={6}>
-                    <p>Front-end professional with a newly acquired understanding of the development life-cycle as part of designing & deploying scalable applications via React, HTML, JS & CSS. Seeking a full-time position as a Front-end Developer at a reputed organization.</p>
+                    <div className="aboutImg img-fluid ">
+                    <img  className="img-fluid " src={image} alt="" />
+                    </div>
                 </Col>
                 <Col xs={12} md={6}>
-                     xs=6 md=4
+                <div >
+                <h4 className=' mt-3'>I am front end developer. I also improve reactjs, javascript, nodejs, and mongodb. I am also MERN Stack developer.</h4>
+                <h4 className=' mt-3'>Front-end professional with a newly acquired understanding of the development life-cycle as part of designing & deploying scalable applications via React, HTML, JS & CSS. Seeking a full-time position as a Front-end Developer at a reputed organization.</h4>
+                </div>
                 </Col>
                 </Row>
         </div>
